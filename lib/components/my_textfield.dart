@@ -24,7 +24,8 @@ class MyTextfield extends StatelessWidget {
                 borderSide: BorderSide(color: Colors.grey.shade400)),
             fillColor: Colors.grey.shade200,
             filled: true,
-            hintText: hintText),
+            hintText: hintText,
+            hintStyle: TextStyle(color: Colors.grey[500])),
       ),
     );
   }
